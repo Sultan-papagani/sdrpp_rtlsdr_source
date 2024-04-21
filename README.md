@@ -25,6 +25,7 @@ New rtl-sdr source for sdr++ which implements better controls for r820t2/r828d t
 
 Download prebuilt .dll files from Release
 * Replace the rtlsdr.dll with the "librtlsdr.dll"
+* Put "libwinpthread-1.dll" in the same folder too
 * Put "new_rtlsdr_source.dll" into "modules" folder
 * Launch sdrpp.exe and add the new module from "Module Manager"
 * Go to "Source" and select "NEW-RTL-SDR"
