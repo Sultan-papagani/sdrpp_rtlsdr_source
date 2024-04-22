@@ -30,6 +30,13 @@ Download prebuilt .dll files from Release
 * Launch sdrpp.exe and add the new module from "Module Manager"
 * Go to "Source" and select "NEW-RTL-SDR"
 
+## SDR++ Server installation
+* Replace the rtlsdr.dll with the "librtlsdr.dll"
+* Put "libwinpthread-1.dll" in the same folder too
+* Put "sdrpp server\new_rtlsdr_source.dll" into "modules" folder (not the folder itself, only the .dll)
+* Launch sdrpp.exe and add the new module from "Module Manager"
+* Go to "Source" and select "NEW-RTL-SDR"
+
 ## Other
 
 There are currently no existing packages for other distributions
