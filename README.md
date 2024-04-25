@@ -97,8 +97,13 @@ There is bunch of commented code, you can uncomment it and explore rtl-sdr's set
 ![Screenshot_5](https://github.com/Sultan-papagani/sdrpp_rtlsdr_source/assets/69393574/a987de0c-febd-412c-b8f1-9c7b7948c4a1)
 
 
-## used libraries
-```
-https://github.com/old-dab/rtlsdr
-```
+## Used libraries
+
+* [old-dab/rtlsdr](https://github.com/old-dab/rtlsdr)
+
+
+## Special Thanks to
+
+* Erlend / LB6MI
+
 
