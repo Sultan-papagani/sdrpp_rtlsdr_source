@@ -240,7 +240,6 @@ public:
             //config.conf["devices"][selectedDevName]["tunerAgc"] = tunerAgc;
             config.conf["devices"][selectedDevName]["gain"] = gainId;
         }
-        if (gainId >= gainList.size()) { gainId = gainList.size() - 1; }
         updateGainTxt();
 
         // Load config
@@ -1026,6 +1025,7 @@ private:
     }
 
     void updateGainTxt() {
+        if (gainId >= gainList.size()) { gainId = gainList.size() - 1; }
         sprintf(dbTxt, "%.1f dB", (float)gainList[gainId] / 10.0f);
     }
 
